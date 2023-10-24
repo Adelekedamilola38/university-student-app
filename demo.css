@@ -1,0 +1,89 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Century;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('Ras.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
+}
+
+.logo img {
+  width: 700px;
+  height: 700px;
+  opacity: 0.7
+}
+
+.title {
+  position: absolute;
+  top: 40%;
+  left: 55%;
+}
+
+.title h1 {
+  color: #fff;
+  font-size: 45px;
+  position: relative;
+  top: -30px;
+}
+
+.title h2 {
+  color: snow;
+  font-style: normal;
+  font-size: 20px;
+  position: relative;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+
+.Info {
+  padding: 5px;
+  position: absolute;
+  top: 114%;
+  letter-spacing: 2px;
+}
+
+.Info h1 {
+  color: snow;
+  font-style: normal;
+  font-size: 17px;
+}
+
+.Info h1 a {
+  color: red;
+  text-decoration: none;
+}
+
+.button {
+  position: absolute;
+  bottom: 3%;
+  left: 55%;
+}
+
+.btn {
+  border: 0px solid #fff;
+  padding: 5px 25px;
+  color: black;
+  transition: 0.5 ease;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: white;
+  margin: 5px;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+
+p {
+  background-color: violet;
+  position: absolute;
+  right: 50px;
+}
